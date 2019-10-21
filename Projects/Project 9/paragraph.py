@@ -47,4 +47,3 @@ filestream = read_file()
 if filestream:
     paragraph_list = paragraph_reader(filestream)
     print(paragraph_list)
-    print(string.punctuation)
