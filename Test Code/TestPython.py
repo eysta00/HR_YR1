@@ -1,11 +1,26 @@
-a_list = [3, 4, 5] + [6]
-b_list = [3, 9]*2
-result_list = []
+hole = 1
+par = 0
+score = 0
 
-for i, value in enumerate(a_list):
-   value_to_append = value
-   if b_list[i] > value:
-       value_to_append = b_list[i]
-   result_list.append(value_to_append)
-print (a_list)
-print(result_list)
+while hole < 19:
+    par = int(input("Par of hole "+str(hole)+": "))
+    score = int(input("Score on hole "+str(hole)+": "))
+    if par < 3 or score == 0:
+        print ("invalid score")
+    elif score == par - 3:
+        print ("albatross")
+    elif score == par - 2:
+        print ("eagle")
+    elif score == par - 1:
+        print ("birdie")
+    elif score == par:
+        print ("par")
+    elif score == par + 1:
+        print ("bogey")
+    elif score == par + 2:
+        print ("double bogey")
+    elif score == par + 3:
+        print ("triple bogey")
+    elif score > par + 3:
+        print ("bad hole")
+    hole += 1
