@@ -1,5 +1,7 @@
-txt = ",,,,,rrttgg.....banana....rrr"
+li = [1, 2, 3 ,4 ,5 ,6]
+li[1] = 5
+print(*li)
 
-x = txt.strip(",.grt")
+new = li[0:3]
 
-print(x)
+print(new)

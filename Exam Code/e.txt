@@ -1,0 +1,7 @@
+r:are
+y:why
+ttyl:talk to you later
+u:you
+l8:late
+lmk:let me know
+nvm:nevermind
