@@ -37,7 +37,10 @@ elapsed = end_time - start_time
 
 def main():
     print("Fib timer using two diffrent methods of calculation a fib number")
-    print("\tChoose a method\n1. for loop method\n2. recursion method\n\tinput anything else to quit")
+    print("\n\tChoose a method\n\n\
+        1. for loop method\n\n\
+        2. recursion method\n\n\
+        \tinput anything else to quit")
     try:
         user_input = int(input("Input a method you want to test: "))
         while user_input == 1 or user_input == 2:
