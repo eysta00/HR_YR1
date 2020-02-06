@@ -1,12 +1,19 @@
 import unittest
+import log_entries
 
 def funky_time(x):
     return x + 1
 
-class PIZZA_TIME(unittest.TestCase):
+class LOG_TEST(unittest.TestCase):
+    
+    def test_delete(self):
+        log_entries.
+    
+    def test_add_entry(self):
+        pass
 
-    def test_a_pizza(self):
-        self.assertEqual(funky_time(3),5)
+    def test_print_entries(self):
+        pass
 
 
 its_a_boy = PIZZA_TIME()
