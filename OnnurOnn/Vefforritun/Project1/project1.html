@@ -11,64 +11,78 @@
     <body>
         <div class="container">
             <div class="header">
-                <table>
-                    <tr>
-                        <th id="hire_header"><h1>Hire</h1></th>
+                <table id="header_table">
+                    <tr class="header_tr">
+                        <td id="hire_header"><h1>Hire</h1></td>
                         
-                        <th id="fire_header"><h1>Fire</h1></th>
+                        <td id="fire_header"><h1>Fire</h1></td>
                     </tr>
-                    <tr>
-                        <th rowspan="2">search</th>
+                    <tr class="header_tr">
+                        <td id="search" colspan="2"> <input type="text" placeholder="Search Person.."> Search</td>
                     </tr>
                 </table>
             </div>
             <div class="content">
                 <div class="person1">
-                    <img class="pers1Img" src="samples/pers1.png" alt="Person 1 image">
-                    <p>
-                    <br><b>Role:</b> Accountant
-                    <br><b>Department:</b> Finance
-                    <br><b>Joined:</b> Jan 2005</p>
+                    <table>
+                        <tr>
+                            <td>
+                            <img class="pers1Img" src="samples/pers1.png" alt="Person 1 image">
+                            </td>
+                            <td rowspan="2">
+                                <p>
+                                <br><b>Role:</b> Accountant
+                                <br><b>Department:</b> Finance
+                                <br><b>Joined:</b> Jan 2005</p></td>
+                        </tr>
+                        <tr><td>
+                            <p class="person_txt">Person 1</p>
+                        </td></tr>
+                    </table>
                     
 
                 </div>
                 <div class="person2">
                     <img class="pers2Img" src="samples/pers2.png" alt="Person 2 image">
+                    
                     <p>
                         <b>Role:</b> Team lead
                     <br><b>Department:</b> Tech
                     <br><b>Joined:</b> Dec 2008</p>
-                    
+                    <p class="person_txt">Person 2</p>
 
                     
                 </div>
                 <div class="person3">
                     <img class="pers3Img" src="samples/pers3.png" alt="Person 3 image">
+                    
                     <p>
                         <b>Role:</b> Admin
                     <br><b>Department:</b> IT Support
                     <br><b>Joined:</b> Apr 2018</p>
-                    
+                    <p class="person_txt">Person 3</p>
 
                     
                 </div>
                 <div class="person4">
                     <img class="pers4Img" src="samples/pers4.png" alt="Person 4 image">
+                    
                     <p>
                         <b>Role:</b> Developer
                     <br><b>Department:</b> Tech
                     <br><b>Joined:</b> Dec 2015</p>
-                    
+                    <p class="person_txt">Person 4</p>
 
                     
                 </div>
                 <div class="person5">
                     <img class="pers5Img" src="samples/pers5.png" alt="Person 5 image">
+                    
                     <p>
                         <b>Role:</b> Project Lead
                     <br><b>Department:</b> Management
                     <br><b>Joined:</b> Mar 2002</p>
-                    
+                    <p class="person_txt">Person 5</p>
 
                     
                 </div>
