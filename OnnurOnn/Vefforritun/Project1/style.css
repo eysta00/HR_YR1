@@ -17,13 +17,35 @@ body {
     text-align: center;
     border: 3px black solid;
     border-radius: 10px;
+    max-height: 100px;
+}
+
+table, th, tr {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 150px;
+    table-layout: fixed;
+    vertical-align: top;
+}
+#fire_header {
+    text-align: right;
+    text-decoration:  underline;
+    font-weight: 200;
+    vertical-align: text-top;
+}
+
+#hire_header {
+    text-align: left;
+    text-decoration:  underline;
+    font-weight: 200;
+    vertical-align: text-top;
 }
 
 .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #eee0ee;
     width: 80%;
     padding-left: 10%;
 }
